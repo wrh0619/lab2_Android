@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="0dp"
+    android:background="@android:color/black"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginStart="3dp"
+        android:textColor="@android:color/black"
+        android:text="red"/>
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/black"
+        android:text="Orange" />
+    <Button
+        android:id="@+id/c"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="302dp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/black"
+        android:text="Yellow" />
+    <Button
+        android:id="@+id/d"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/black"
+        android:text="Green" />
+    <Button
+        android:id="@+id/e"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"
+        android:text="Blue" />
+    <Button
+        android:id="@+id/f"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/black"
+        android:text="Indigo" />
+    <Button
+        android:id="@+id/g"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/black"
+        android:text="Violef" />
+
+</RelativeLayout>
